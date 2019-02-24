@@ -1,0 +1,19 @@
+{
+  "name": "node-express-scaffold",
+  "version": "1.0.0",
+  "description": "Quick start scaffolding for a node.js and express app",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdowsett/nodeExpressScaffold.git"
+  },
+  "author": "Vicky Dowsett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdowsett/nodeExpressScaffold/issues"
+  },
+  "homepage": "https://github.com/vdowsett/nodeExpressScaffold#readme"
+}
