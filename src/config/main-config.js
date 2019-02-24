@@ -1,8 +1,5 @@
 require("dotenv").config();
 
-const keyPublishable = process.env.STRIPE_PUBLISHABLE_KEY;
-const keySecret = process.env.STRIPE_SECRET_KEY;
-
 const path = require("path");
 const viewsFolder = path.join(__dirname, "..", "views");
 const bodyParser = require("body-parser");
@@ -33,7 +30,7 @@ init(app, express){
     app.use((req,res,next) => {
         res.locals.currentUser = req.user;
         next();
-    });
+    })
     
     }
 };
